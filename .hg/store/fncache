@@ -1,0 +1,6 @@
+data/.hgignore.i
+data/01_processes/src/main.cpp.i
+data/01_processes/meson.build.i
+data/01_processes/src/asdf.cpp.i
+data/01_processes/include/asdf.h.i
+data/01_processes/src/aba.cpp.i

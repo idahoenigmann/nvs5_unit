@@ -1,0 +1,1 @@
+move second child process into own program; add environment variables
