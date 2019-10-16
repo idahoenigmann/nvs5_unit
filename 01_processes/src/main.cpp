@@ -8,7 +8,6 @@
 #include <thread>
 #include <csignal>
 #include <sys/wait.h>
-#include "asdf.h"
 
 using namespace std;
 

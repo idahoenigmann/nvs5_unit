@@ -1,1 +1,1 @@
-move second child process into own program; add environment variables
+add output who won; bug fix total_time of car2

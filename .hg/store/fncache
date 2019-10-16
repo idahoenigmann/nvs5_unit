@@ -4,3 +4,6 @@ data/01_processes/meson.build.i
 data/01_processes/src/asdf.cpp.i
 data/01_processes/include/asdf.h.i
 data/01_processes/src/aba.cpp.i
+data/02_threads/src/main.cpp.i
+data/02_threads/meson_options.txt.i
+data/02_threads/meson.build.i
