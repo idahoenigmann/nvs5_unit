@@ -1,0 +1,9 @@
+option('resources',
+       type:'string',
+       value: '/home/ida/Documents/5_Klasse/POS/resources',
+       description: 'all resources')
+
+option('doctest',
+       type:'string',
+       value: '/home/ida/Documents/5_Klasse/POS/resources/doctest',
+       description: 'doctest')
