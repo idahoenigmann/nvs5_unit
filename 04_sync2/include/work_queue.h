@@ -20,12 +20,13 @@ public:
     void push(WorkPacket workPacket);
     WorkPacket pop();
 
+    unsigned size;
 private:
     std::queue<WorkPacket> queue;
     std::mutex mtx;
     std::condition_variable not_empty;
     std::condition_variable not_full;
-    unsigned size;
+
 };
 
 #endif //HOENIGMANN_I15013_WORK_QUEUE_H

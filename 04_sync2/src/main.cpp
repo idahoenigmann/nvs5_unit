@@ -37,8 +37,12 @@ void worker(int id, WorkQueue& q) {
     }
 }
 
-int main() {
-    WorkQueue workQueue{3};
+int main(int argc, const char* argv[]) {
+    WorkQueue workQueue{10};
+
+    if (argc > 2) {
+        workQueue.size = stoi(argv[1]);
+    }
 
     thread w1{worker, 1, ref(workQueue)};
     thread w2{worker, 2, ref(workQueue)};
