@@ -1,0 +1,20 @@
+option('resources',
+       type:'string',
+       value: '/home/ida/Documents/5_Klasse/POS/resources',
+       description: 'all resources')
+
+option('doctest',
+       type:'string',
+       value: '/home/ida/Documents/5_Klasse/POS/resources/doctest',
+       description: 'doctest')
+
+option('asio',
+      type:'string',
+      value: '/home/ida/Documents/5_Klasse/NVS/resources/asio-1.14.0/include',
+      description: 'asio')
+
+option('spdlog',
+      type:'string',
+      value: '/home/ida/Documents/5_Klasse/POS/resources/spdlog/include',
+      description: 'spdlog')
+
